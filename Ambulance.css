@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Playwrite DE Grund", cursive;
+   
+}
+.container{
+    background-color: rgb(139, 254, 225); 
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px;
+    border: 2px black solid;
+}
+.profile-image{
+    border: 2px black solid;
+    height: 120px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+.heading-bio{
+    padding: 25px;
+    float: left;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(24, 0, 157);
+}
+.contact{
+    font: medium black;
+    padding: 30px;
+    float: right;
+    font-weight: bold;
+    border:2px solid black;
+}
+.aa{
+    color: rgb(24, 0, 157);
+    text-decoration: none;
+}
+.aa:hover{
+    color: rgb(140, 64, 239);
+    text-decoration: underline;
+    background-color: black;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    border-bottom: none;
+    margin:10px auto;
+}
+/Main Part---------------------------------------/
+.section{
+    padding: 30px auto;
+}
+.left_div{
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.HeadingCenter{
+    padding: 10px ;
+}
+.right_div{
+    background-color: #fff1f1;
+    padding: 10px ;
+    border: 2px solid blanchedalmond;
+    padding-left: 10px;
+    float: left;
+}
+.pp{
+   font-size: 15px;
+}
+.mainhr{
+    border: dotted black 2px;
+    border-bottom: none;
+    margin: 10px auto;
+}
+
+
+.footer-modify{
+    background-color: black; 
+    text-align: center;
+    padding: 30px;
+}
+.footer-modify a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 40px;
+    padding-bottom: 50px;
+}
+.footer-modify a:hover{
+    color: blue;
+}
+.footer-modify p{
+    padding-top: 50px;
+    color: white;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.search-input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-left: none;
+    background-color: #333;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #555;
+}

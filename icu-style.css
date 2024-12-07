@@ -1,0 +1,89 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f78b4; /* Medical blue */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar h1 {
+    color: white;
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+}
+
+.back-button {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #1f78b4; /* Medical blue */
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+    width: 45%;
+    border: 1px solid #1f78b4;
+    border-radius: 5px;
+}
+
+.hospital-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hospital-item {
+    border: 1px solid #1f78b4;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+}
+
+.hospital-item h3 {
+    color: #1f78b4;
+}
+
+.book-button {
+    background-color: #1f78b4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.book-button.disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+}
+
+footer {
+    background-color: #1f78b4; /* Medical blue */
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
